@@ -1,0 +1,116 @@
+@import url(../css/fonts.css);
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding-bottom: 180px;
+  background-image: url(../img/bg.jpg);
+  border-bottom: 10px solid #D61919;
+}
+
+.site-header .brand-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-header .brand-menu .logo {
+  display: block;
+  padding: 24px 23px 16px 23px;
+  background-color: #D61919;
+}
+
+.menu-navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-navigation ul .nav-item {
+  margin-top: 30px;
+}
+
+.menu-navigation ul .nav-item a {
+  padding: 33px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 30px Alternate Got No3D, sans-serif;
+  color: #B5CBD1;
+}
+
+.menu-navigation ul .nav-item a:hover {
+  color: #000;
+  background-color: #D61919;
+}
+
+.main-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 107px;
+}
+
+#main {
+  border-top: 10px solid #D61919;
+  background-color: #0F1318;
+  color: #B5CBD1;
+}
+
+#main p {
+  margin: 52px 17px 52px 22px;
+  font: 28px Berthold Akzidenz Grotesk BE Light Condensed, sans-serif;
+}
+
+#main h2 {
+  margin-left: 20px;
+  text-transform: uppercase;
+  font: 32px Alternate Got No3D, sans-serif;
+}
+
+#main .card-deck {
+  margin-top: 59px;
+  margin-bottom: 64px;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#main .card-deck .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px;
+}
+
+#main .card-deck .caption {
+  text-align: center;
+  padding: 3px;
+  font: 18px Alternate Got No3D, sans-serif;
+  color: #FFF;
+}

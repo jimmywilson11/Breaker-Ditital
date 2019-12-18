@@ -1,0 +1,66 @@
+@import url(../css/fonts.css)
+@import variables.sass
+@import header.sass
+
+.container
+    width: 100%
+    max-width: 1300px
+    margin: 0 auto
+.site-header
+    padding-bottom: 180px
+    background-image: url(../img/bg.jpg)
+    border-bottom: 10px solid $red
+    .brand-menu
+        display: flex
+        .logo
+            display: block
+            padding: 24px 23px 16px 23px
+            background-color: $red
+.menu-navigation
+    ul
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        .nav-item
+            margin-top: 30px
+            a
+                padding: 33px
+                text-decoration: none
+                text-transform: uppercase
+                font: 30px $second-font
+                color: $dirty-white
+                &:hover
+                    color: $black
+                    background-color: $red
+.main-logo
+    display: flex
+    justify-content: center
+    margin-top: 107px
+#main
+    border-top: 10px solid $red
+    background-color: $bgc
+    color: $dirty-white
+    p
+        margin: 52px 17px 52px 22px
+        font: 28px $main-font
+    h2
+        margin-left: 20px
+        text-transform: uppercase
+        font: 32px $second-font
+    .card-deck
+        margin-top: 59px
+        margin-bottom: 64px
+        background-color: $black
+        display: flex
+        flex-wrap: wrap
+        .card
+            display: flex
+            flex-direction: column
+            justify-content: center
+            padding: 8px
+        .caption
+            text-align: center
+            padding: 3px
+            font: 18px $second-font
+            color: $white

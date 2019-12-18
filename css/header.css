@@ -1,0 +1,48 @@
+.site-header {
+  background-image: url(../img/bg.jpg);
+}
+
+.site-header .brand-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-header .brand-menu .logo {
+  display: block;
+  padding: 24px 23px 16px 23px;
+  background-color: #D61919;
+}
+
+.menu-navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-navigation ul .nav-item {
+  margin-top: 30px;
+}
+
+.menu-navigation ul .nav-item a {
+  padding: 33px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 30px Alternate Got No3D, sans-serif;
+  color: #B5CBD1;
+}
+
+.menu-navigation ul .nav-item a:hover {
+  color: #000;
+  background-color: #D61919;
+}
