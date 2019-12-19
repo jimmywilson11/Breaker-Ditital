@@ -15,7 +15,10 @@
         .logo
             display: block
             padding: 24px 23px 16px 23px
-            background-color: $red
+            &:hover
+                background-color: $red
+.active
+    background-color: $red
 .menu-navigation
     ul
         display: flex
@@ -41,6 +44,7 @@
     border-top: 10px solid $red
     background-color: $bgc
     color: $dirty-white
+    padding-bottom: 64px
     p
         margin: 52px 17px 52px 22px
         font: 28px $main-font
@@ -50,7 +54,6 @@
         font: 32px $second-font
     .card-deck
         margin-top: 59px
-        margin-bottom: 64px
         background-color: $black
         display: flex
         flex-wrap: wrap
@@ -58,9 +61,19 @@
             display: flex
             flex-direction: column
             justify-content: center
-            padding: 8px
+            border: 2px solid $dirty-white
+            border-radius: 8px
+            margin: 5px 
         .caption
             text-align: center
             padding: 3px
             font: 18px $second-font
             color: $white
+        a
+            text-decoration: none
+            &:hover
+                img
+                    opacity: .6
+                .caption
+                    background-color: $dirty-white
+                    color: $red

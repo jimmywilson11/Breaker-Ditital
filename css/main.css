@@ -20,6 +20,13 @@
 .site-header .brand-menu .logo {
   display: block;
   padding: 24px 23px 16px 23px;
+}
+
+.site-header .brand-menu .logo:hover {
+  background-color: #D61919;
+}
+
+.active {
   background-color: #D61919;
 }
 
@@ -70,6 +77,7 @@
   border-top: 10px solid #D61919;
   background-color: #0F1318;
   color: #B5CBD1;
+  padding-bottom: 64px;
 }
 
 #main p {
@@ -85,7 +93,6 @@
 
 #main .card-deck {
   margin-top: 59px;
-  margin-bottom: 64px;
   background-color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,7 +112,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 8px;
+  border: 2px solid #B5CBD1;
+  border-radius: 8px;
+  margin: 5px;
 }
 
 #main .card-deck .caption {
@@ -113,4 +122,17 @@
   padding: 3px;
   font: 18px Alternate Got No3D, sans-serif;
   color: #FFF;
+}
+
+#main .card-deck a {
+  text-decoration: none;
+}
+
+#main .card-deck a:hover img {
+  opacity: .6;
+}
+
+#main .card-deck a:hover .caption {
+  background-color: #B5CBD1;
+  color: #D61919;
 }
