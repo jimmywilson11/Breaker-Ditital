@@ -99,6 +99,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 8px;
 }
 
 #main .card-deck .card {
@@ -117,6 +118,14 @@
   margin: 5px;
 }
 
+#main .card-deck .thevideo {
+  width: 414px;
+  height: 252px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #000;
+}
+
 #main .card-deck .caption {
   text-align: center;
   padding: 3px;
@@ -126,10 +135,6 @@
 
 #main .card-deck a {
   text-decoration: none;
-}
-
-#main .card-deck a:hover img {
-  opacity: .6;
 }
 
 #main .card-deck a:hover .caption {

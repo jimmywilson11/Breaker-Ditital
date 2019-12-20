@@ -1,0 +1,130 @@
+@import url(../css/fonts.css);
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding-bottom: 180px;
+  background-image: url(../img/bg.jpg);
+  border-bottom: 10px solid #D61919;
+}
+
+.site-header .brand-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-header .brand-menu .logo {
+  display: block;
+  padding: 24px 23px 16px 23px;
+}
+
+.site-header .brand-menu .logo:hover {
+  background-color: #D61919;
+}
+
+.active {
+  background-color: #D61919;
+}
+
+.menu-navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-navigation ul .nav-item a {
+  display: block;
+  padding: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 30px Alternate Got No3D, sans-serif;
+  color: #B5CBD1;
+}
+
+.menu-navigation ul .nav-item a:hover {
+  color: #000;
+  background-color: #D61919;
+}
+
+.main-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 107px;
+}
+
+#main-derectors {
+  border-top: 10px solid #D61919;
+  background-color: #0F1318;
+  color: #B5CBD1;
+  padding-bottom: 120px;
+}
+
+#main-derectors h2 {
+  margin-top: 23px;
+  margin-left: 74px;
+  text-transform: uppercase;
+  font: 32px Alternate Got No3D, sans-serif;
+}
+
+.director-list {
+  background-color: #000;
+  margin-top: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.director-list .director-item {
+  padding: 10px;
+  border-top: 3px solid #D61919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.director-list .director-item .thevideo {
+  width: 530px;
+  height: 326px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #000;
+}
+
+.director-list .director-item a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #B5CBD1;
+  font: 38px Berthold Akzidenz Grotesk BE Light Condensed, sans-serif;
+}

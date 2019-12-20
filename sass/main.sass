@@ -1,6 +1,5 @@
 @import url(../css/fonts.css)
 @import variables.sass
-@import header.sass
 
 .container
     width: 100%
@@ -57,13 +56,20 @@
         background-color: $black
         display: flex
         flex-wrap: wrap
+        padding: 8px
         .card
             display: flex
             flex-direction: column
             justify-content: center
             border: 2px solid $dirty-white
             border-radius: 8px
-            margin: 5px 
+            margin: 5px
+        .thevideo
+            width: 414px
+            height: 252px
+            object-fit: cover
+            background-color: $black    
+        
         .caption
             text-align: center
             padding: 3px
@@ -72,8 +78,6 @@
         a
             text-decoration: none
             &:hover
-                img
-                    opacity: .6
                 .caption
                     background-color: $dirty-white
                     color: $red
