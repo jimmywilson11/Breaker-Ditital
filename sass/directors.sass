@@ -60,15 +60,43 @@
         border-top: 3px solid $red
         display: flex
         align-items: center
-        justify-content: center
+        justify-content: space-around
+        h3
+            display: inline-block
+            position: relative
+            text-transform: uppercase
+            color: $red
+            font: 50px $second-font
+            &::after
+                display: block
+                position: absolute
+                width: 100%
+                content: ''
+                height: 2px
+                color: $dirty-white
         .thevideo
             width: 530px
             height: 326px
             object-fit: cover
-            background-color: $black 
+            background-color: $black
         a
             display: block
+            position: relative
             text-decoration: none
             text-transform: uppercase
             color: $dirty-white
             font: 38px $main-font
+            &::after
+                display: block
+                position: absolute
+                width: 100%
+                content: '→'
+                color: $red
+                left: 35%
+                top: 60%
+            &:hover
+                color: $red
+                &::after
+                   color: $dirty-white 
+                
+        

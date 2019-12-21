@@ -1,0 +1,71 @@
+@import url(../css/fonts.css);
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding-bottom: 180px;
+  background-image: url(../img/bg.jpg);
+  border-bottom: 10px solid #D61919;
+}
+
+.site-header .brand-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-header .brand-menu .logo {
+  display: block;
+  padding: 24px 23px 16px 23px;
+}
+
+.site-header .brand-menu .logo:hover {
+  background-color: #D61919;
+}
+
+.active {
+  background-color: #D61919;
+}
+
+.menu-navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-navigation ul .nav-item a {
+  display: block;
+  padding: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 30px Alternate Got No3D, sans-serif;
+  color: #B5CBD1;
+}
+
+.menu-navigation ul .nav-item a:hover {
+  color: #000;
+  background-color: #D61919;
+}
+
+.main-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 107px;
+}

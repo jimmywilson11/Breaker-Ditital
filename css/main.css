@@ -118,12 +118,21 @@
   margin: 5px;
 }
 
+#main .card-deck .video {
+  position: relative;
+}
+
+#main .card-deck .video .overlay-poster {
+  position: absolute;
+}
+
 #main .card-deck .thevideo {
   width: 414px;
   height: 252px;
   -o-object-fit: cover;
      object-fit: cover;
   background-color: #000;
+  position: relative;
 }
 
 #main .card-deck .caption {

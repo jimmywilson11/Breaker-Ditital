@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(../css/fonts.css);
 .container {
   width: 100%;
@@ -108,9 +109,25 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.director-list .director-item h3 {
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  color: #D61919;
+  font: 50px Alternate Got No3D, sans-serif;
+}
+
+.director-list .director-item h3::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  content: '';
+  height: 2px;
+  color: #B5CBD1;
 }
 
 .director-list .director-item .thevideo {
@@ -123,8 +140,27 @@
 
 .director-list .director-item a {
   display: block;
+  position: relative;
   text-decoration: none;
   text-transform: uppercase;
   color: #B5CBD1;
   font: 38px Berthold Akzidenz Grotesk BE Light Condensed, sans-serif;
+}
+
+.director-list .director-item a::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  content: '→';
+  color: #D61919;
+  left: 35%;
+  top: 60%;
+}
+
+.director-list .director-item a:hover {
+  color: #D61919;
+}
+
+.director-list .director-item a:hover::after {
+  color: #B5CBD1;
 }
