@@ -69,3 +69,113 @@
           justify-content: center;
   margin-top: 107px;
 }
+
+#main-directors {
+  border-top: 10px solid #D61919;
+  background-color: #0F1318;
+  color: #B5CBD1;
+  padding-bottom: 100px;
+}
+
+#main-directors h2 {
+  margin-top: 23px;
+  margin-left: 74px;
+  text-transform: uppercase;
+  font: 32px Alternate Got No3D, sans-serif;
+}
+
+.director-list {
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 23px;
+}
+
+.director-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 61px;
+  border-top: 3px solid #D61919;
+}
+
+.director {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.director h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #D61919;
+  text-align: center;
+}
+
+.director img {
+  margin-bottom: 25px;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.description p {
+  font: 38px Berthold Akzidenz Grotesk BE Light Condensed, sans-serif;
+  margin-left: 44px;
+}
+
+.works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 44px;
+}
+
+.works span {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-right: 5px;
+}
+
+.works a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #D61919;
+  font-size: 30px;
+  padding: 3px 15px;
+}
+
+.works a:hover {
+  background-color: #D61919;
+  color: #000;
+  border-radius: 18px;
+}
