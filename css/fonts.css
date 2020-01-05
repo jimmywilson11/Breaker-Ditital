@@ -11,3 +11,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Alternate Got No1D";
+    src: url("../fonts/AlternateGotNo1D.otf");
+    font-weight: normal;
+    font-style: normal;
+}

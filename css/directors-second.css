@@ -164,13 +164,14 @@
   font-size: 30px;
   text-transform: uppercase;
   padding-right: 5px;
+  font: 30px Alternate Got No1D, sans-serif;
 }
 
 .works a {
   text-decoration: none;
   text-transform: uppercase;
   color: #D61919;
-  font-size: 30px;
+  font: 30px Alternate Got No1D, sans-serif;
   padding: 3px 15px;
 }
 
