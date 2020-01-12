@@ -27,7 +27,7 @@
         .nav-item
             a
                 display: block
-                padding: 32px
+                padding: 31px
                 text-decoration: none
                 text-transform: uppercase
                 font: 30px $second-font
@@ -74,11 +74,6 @@
                 content: ''
                 height: 2px
                 color: $dirty-white
-        .thevideo
-            width: 530px
-            height: 326px
-            object-fit: cover
-            background-color: $black
         a
             display: block
             position: relative
@@ -97,6 +92,18 @@
             &:hover
                 color: $red
                 &::after
-                   color: $dirty-white 
+                    color: $dirty-white 
+    .video
+        position: relative
+        .overlay-poster
+            position: absolute
+            left: 0
+        .thevideo
+            width: 530px
+            height: 326px
+            object-fit: cover
+            background-color: $black
+            position: relative          
+        
                 
         
